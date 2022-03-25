@@ -1,5 +1,6 @@
 #pragma once
 
+/// Pure virtual matrix class
 class MatrixSparse
 {
 public:

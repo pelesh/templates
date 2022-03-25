@@ -9,7 +9,7 @@ public:
   MatrixSparseCSR(double a);
   virtual ~MatrixSparseCSR(){}
 
-  virtual void hiopSetMatrixZero(int i);
+  virtual void hiopSetMatrixZero(int i) override;
 
 private:
   double a_;

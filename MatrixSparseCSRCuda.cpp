@@ -14,5 +14,5 @@ MatrixSparseCSR<T>::MatrixSparseCSR(double a) : a_(a)
 
 
 #include "MatrixSparseCSRImpl.hpp"
-template MatrixSparseCSR<CudaPolicy>::MatrixSparseCSR(double a);
+template MatrixSparseCSR<csr::CudaPolicy>::MatrixSparseCSR(double a);
 

@@ -1,3 +1,5 @@
+namespace csr {
+
 class CudaPolicy
 {
 public:
@@ -10,3 +12,4 @@ public:
     }
 };
 
+} // namespace csr
