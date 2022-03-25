@@ -1,5 +1,6 @@
 namespace csr {
 
+/// Sequential execution policy for CSR matrix
 class SeqPolicy
 {
 public:

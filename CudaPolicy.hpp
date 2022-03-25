@@ -1,5 +1,6 @@
 namespace csr {
 
+/// CUDA execution policy for CSR matrix
 class CudaPolicy
 {
 public:

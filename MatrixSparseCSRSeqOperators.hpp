@@ -1,3 +1,7 @@
+/// File containing implementation of standalone operators acting on
+/// CSR matrices (non-member functions).
+/// Uses function overloading instead of inheritance to create abstract
+/// interface.
 namespace csr {
 
 void matrixMatrixMultiplySparse(const MatrixSparseCSR<csr::SeqPolicy>& m1,

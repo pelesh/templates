@@ -7,6 +7,6 @@ public:
   MatrixSparse(){}
   virtual ~MatrixSparse(){}
 
-  virtual void hiopSetMatrixZero(int i) = 0;
+  virtual void hiopSetMatrixZero() = 0;
 };
 

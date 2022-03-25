@@ -6,11 +6,12 @@
 
 int main()
 {
+  // Create matrix with sequential execution policies for operators
   MatrixSparseCSR<csr::SeqPolicy> seqmat1(2.0);
-  seqmat1.hiopSetMatrixZero(3);
+  seqmat1.hiopSetMatrixZero();
 
   MatrixSparseCSR<csr::CudaPolicy> cudamat(4);
-  cudamat.hiopSetMatrixZero(3);
+  cudamat.hiopSetMatrixZero();
 
   MatrixSparseCSR<csr::SeqPolicy> seqmat2(2.0);
   MatrixSparseCSR<csr::SeqPolicy> seqmat3(2.0);
