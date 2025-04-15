@@ -1,4 +1,4 @@
-name: "\U+1FAB2 Bug report"
+name: "\U0001FAB2 Bug report"
 description: "Bug in Re::Solve code"
 title: "Build issue: "
 labels: [bug]
