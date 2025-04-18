@@ -25,6 +25,17 @@ body:
       required: true
 
   - type: textarea
+    id: gridkit-version
+    attributes:
+      label: "GridKit Version"
+      description: |
+        Please include the version of GridKit™ which demonstrates the problem.
+        If building from source on a non-tagged version, please include the commit hash.
+      value: "GridKit™ version: "
+    validations:
+      required: true
+
+  - type: textarea
     id: information
     attributes:
       label: "System and environment details"
