@@ -9,11 +9,13 @@ body:
       label: "Description how to reproduce the bug"
       description: "Please provide launch command and the output when you encounter bug."
       value: |
+        <!-- Include short error output here. -->
         ```console
         $ ./gridkit_app
         (...)
         ```
-        If the error output is long, attach a file or write it in a block that can be closed:
+        <!-- If the error output is long, attach a file
+             or write it in a block that can be closed as below: -->
         <details>
         
         ```
