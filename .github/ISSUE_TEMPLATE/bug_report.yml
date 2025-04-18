@@ -15,6 +15,7 @@ body:
         ```
         If the error output is long, attach a file or write it in a block that can be closed:
         <details>
+        
         ```
         $ ./gridkit_app
         (...)
@@ -36,13 +37,8 @@ body:
     validations:
       required: true
 
-  - type: markdown
-    attributes:
-      value: |
-        If you have additional debugging information, such as backtrace, you can add them below.
-
   - type: textarea
     id: additional_information
     attributes:
       label: "Additional information"
-      description: "Upload test logs or provide any additional context about the issue."
+      description: "Upload additional debugging information, such as backtrace."
