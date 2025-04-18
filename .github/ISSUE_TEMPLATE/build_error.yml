@@ -38,4 +38,4 @@ body:
     id: additional_information
     attributes:
       label: "Additional information"
-      description: "Upload test logs or provide any additional context about the issue."
+      description: "Upload build logs or provide any additional context about the issue."
