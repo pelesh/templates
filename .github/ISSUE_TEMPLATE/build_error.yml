@@ -1,13 +1,13 @@
 name: "\U0001F4A5 Build error"
-description: "Unable to build ReSolve"
+description: "Unable to build GridKit"
 title: "Build issue: "
-labels: [build-error]
+labels: [cmake]
 body:
   - type: textarea
     id: reproduce
     attributes:
-      label: "CMake error message(s)"
-      description: "Fill in the console output when you try to build."
+      label: "Build error message(s)"
+      description: "Instructions how to reproduce build failure and the error output."
       value: |
         ```console
         $ make
