@@ -1,5 +1,5 @@
 name: "\U0001FAB2 Bug report"
-description: "Bug in GridKit™ code"
+description: "Bug in Re::Solve code"
 title: "Bug: "
 labels: [bug]
 body:
@@ -10,14 +10,14 @@ body:
       description: "Please provide launch command and the output when you encounter bug."
       value: |
         ```console
-        $ ./gridkit_app
+        $ ./resolve_app
         (...)
         ```
         If the error output is long, attach a file or write it in a block that can be closed:
         <details>
         
         ```
-        $ ./gridkit_app
+        $ ./resolve_app
         (...)
         ```
         </details>
