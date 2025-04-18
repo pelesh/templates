@@ -24,10 +24,10 @@ body:
     validations:
       required: true
 
-  - type: markdown
+  - type: input
     id: gridkit-version
     attributes:
-      label: "GridKit Version"
+      label: Contact Details
       description: |
         Please include the version of GridKit™ which demonstrates the problem.
         If building from source on a non-tagged version, please include the commit hash.
