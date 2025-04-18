@@ -7,16 +7,16 @@ body:
     id: reproduce
     attributes:
       label: "Description how to reproduce the bug"
-      description: "Fill in the console output when you try to build."
+      description: "Please provide launch command and the output when you encounter bug."
       value: |
         ```console
-        $ ./resolve_app
+        $ ./gridkit_app
         (...)
         ```
-        If the error output is long, write it in a block that can be closed:
+        If the error output is long, attach a file or write it in a block that can be closed:
         <details>
         ```
-        $ ./resolve_app
+        $ ./gridkit_app
         (...)
         ```
         </details>
