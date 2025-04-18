@@ -1,6 +1,6 @@
 name: "\U0001FAB2 Bug report"
 description: "Bug in GridKit™ code"
-title: "Build issue: "
+title: "Bug: "
 labels: [bug]
 body:
   - type: textarea
@@ -14,12 +14,12 @@ body:
         (...)
         ```
         If the error output is long, write it in a block that can be closed:
-        <detail>
+        <details>
         ```
         $ ./resolve_app
         (...)
         ```
-        </detail>
+        </details>
     validations:
       required: true
 
