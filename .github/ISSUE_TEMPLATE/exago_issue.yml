@@ -5,17 +5,23 @@ description: "Issue in ExaGO code"
 body:
   # CHECKBOX:
   - type: checkboxes
-    id: checkboxes
+    id: issue_type
     attributes:
-      label: What kinds of M&Ms do you like?
+      label: Issue applies to:
       description: You may select more than one.
       options:
-        - label: Green
-        - label: Orange
-        - label: Red
-        - label: Yellow
+        - label: PFLOW
+        - label: OPFLOW
+        - label: TCOPFLOW
+        - label: SCOPFLOW
+        - label: SOPFLOW
+        - label: CMake and build system
+        - label: Spack
+        - label: Visualization
+        - label: Documentation
+        - label: Other
     validations:
-      required: false
+      required: true
 
   - type: textarea
     id: reproduce
