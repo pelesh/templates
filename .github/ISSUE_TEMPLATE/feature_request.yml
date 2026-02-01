@@ -9,6 +9,20 @@ body:
       description: Please add a concise summary of your suggestion here.
     validations:
       required: true
+  # CHECKBOX:
+  - type: checkboxes
+    id: checkboxes
+    attributes:
+      label: What kinds of M&Ms do you like?
+      description: You may select more than one.
+      options:
+        - label: Green
+        - label: Orange
+        - label: Red
+        - label: Yellow
+    validations:
+      required: false
+
   - type: textarea
     id: rationale
     attributes:
