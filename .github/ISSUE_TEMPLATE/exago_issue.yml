@@ -1,7 +1,7 @@
-name: "\U0001FAB2 Bug report"
-description: "Bug in GridKit™ code"
-title: "Bug: "
-labels: [bug]
+name: "Issue Report"
+description: "Issue in ExaGO code"
+#title: "Bug: "
+#labels: [bug]
 body:
   - type: textarea
     id: reproduce
