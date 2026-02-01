@@ -41,16 +41,18 @@ body:
     attributes:
       label: "Summary"
       description: "Please provide detailed description of the issue."
+    validations:
+      required: true
 
   - type: textarea
     id: reproduce
     attributes:
       label: "Description how to reproduce the issue"
-      description: "Please provide launch command and the output when you encounter bug."
+      description: "Please provide launch command and the output when you encounter the issue (if applicable)."
       value: |
         <!-- Include short error output here. -->
         ```console
-        $ ./gridkit_app
+        $ ./opflow
         (...)
         ```
         <!-- If the error output is long, attach a file
@@ -58,19 +60,19 @@ body:
         <details>
         
         ```
-        $ ./gridkit_app
+        $ ./opflow
         (...)
         ```
         </details>
     validations:
-      required: true
+      required: false
 
   - type: input
     id: exago_version
     attributes:
       label: "ExaGO version"
       description: |
-        Please include the version of GridKit™ which demonstrates the problem.
+        Please include the version of ExaGO™ which demonstrates the problem.
         If building from source on a non-tagged version, please include the commit hash.
     validations:
       required: true
@@ -92,4 +94,4 @@ body:
     id: additional_information
     attributes:
       label: "Additional information"
-      description: "Upload additional debugging information, such as backtrace."
+      description: "Upload additional information such as debugging backtraces, logs and screenshots, when applicable."
