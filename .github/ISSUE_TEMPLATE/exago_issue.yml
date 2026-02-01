@@ -8,12 +8,12 @@ body:
     id: issue_type
     attributes:
       label: Issue type
-      default: 0
+      default: ""
       options:
-        - Bug
-        - Feature Request
-        - Discussion
-        - Other
+        - "Bug"
+        - "Feature Request"
+        - "Discussion"
+        - "Other"
     validations:
       required: true
 
