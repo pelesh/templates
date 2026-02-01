@@ -8,6 +8,7 @@ body:
     id: issue_type
     attributes:
       label: Issue type
+      default: 
       options:
         - Bug
         - Feature Request
