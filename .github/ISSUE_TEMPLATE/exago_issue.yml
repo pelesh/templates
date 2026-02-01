@@ -10,7 +10,7 @@ body:
       label: Issue type
       description: Please select from pulldown menu.
       options:
-        - None
+        - ""
         - Bug
         - Feature Request
         - Discussion
