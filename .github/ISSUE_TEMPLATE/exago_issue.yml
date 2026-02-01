@@ -3,6 +3,20 @@ description: "Issue in ExaGO code"
 #title: "Bug: "
 #labels: [bug]
 body:
+  # CHECKBOX:
+  - type: checkboxes
+    id: checkboxes
+    attributes:
+      label: What kinds of M&Ms do you like?
+      description: You may select more than one.
+      options:
+        - label: Green
+        - label: Orange
+        - label: Red
+        - label: Yellow
+    validations:
+      required: false
+
   - type: textarea
     id: reproduce
     attributes:
