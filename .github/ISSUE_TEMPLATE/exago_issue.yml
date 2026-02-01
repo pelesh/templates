@@ -97,3 +97,9 @@ body:
     attributes:
       label: "Additional information"
       description: "Upload additional information such as debugging backtraces, logs and screenshots, when applicable."
+
+  - type: textarea
+    id: possible_fix
+    attributes:
+      label: "Proposed solution"
+      description: "Describe your proposed solution, when applicable."
