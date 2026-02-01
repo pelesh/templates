@@ -3,9 +3,22 @@ description: "Issue in ExaGO code"
 #title: "Bug: "
 #labels: [bug]
 body:
+  # DROPDOWN:
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: Issue type
+      options:
+        - Bug
+        - Feature Request
+        - Discussion
+        - Other
+    validations:
+      required: true
+
   # CHECKBOX:
   - type: checkboxes
-    id: issue_type
+    id: issue_relates_to
     attributes:
       label: "Issue applies to:"
       description: You may select more than one.
@@ -24,9 +37,15 @@ body:
       required: true
 
   - type: textarea
+    id: summary
+    attributes:
+      label: "Summary"
+      description: "Please provide detailed description of the issue."
+
+  - type: textarea
     id: reproduce
     attributes:
-      label: "Description how to reproduce the bug"
+      label: "Description how to reproduce the issue"
       description: "Please provide launch command and the output when you encounter bug."
       value: |
         <!-- Include short error output here. -->
@@ -47,9 +66,9 @@ body:
       required: true
 
   - type: input
-    id: gridkit-version
+    id: exago_version
     attributes:
-      label: "GridKit™ version"
+      label: "ExaGO version"
       description: |
         Please include the version of GridKit™ which demonstrates the problem.
         If building from source on a non-tagged version, please include the commit hash.
@@ -57,7 +76,7 @@ body:
       required: true
 
   - type: textarea
-    id: system-info
+    id: system_info
     attributes:
       label: "System and environment details"
       description: |
