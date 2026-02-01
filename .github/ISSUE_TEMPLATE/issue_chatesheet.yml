@@ -1,4 +1,3 @@
----
 ########################################################################
 # How to create a YAML issue template form in your repository          #
 ########################################################################
@@ -434,4 +433,3 @@ body:
   # Writing on GitHub: https://docs.github.com/en/github/writing-on-github
   # YAML home page: https://yaml.org/
   # YAML validator: http://www.yamllint.com/
-...
