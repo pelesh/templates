@@ -9,12 +9,10 @@ body:
     attributes:
       label: Issue type
       options:
-        - none
         - Bug
         - Feature Request
         - Discussion
         - Other
-      default: 0
     validations:
       required: true
 
